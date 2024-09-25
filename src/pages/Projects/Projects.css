@@ -1,0 +1,15 @@
+#projects {
+  background-color: var(--color-5);
+  padding: var(--padding-xl) 0px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#projects h2 {
+  width: 100%;
+  text-align: center;
+  font-size: 60px;
+  padding: var(--padding-m);
+  color: var(--color-3);
+}

@@ -1,0 +1,39 @@
+#selection {
+  display: flex;
+  background-color: var(--color-3);
+  align-items: center;
+  justify-content: space-evenly;
+
+  padding: var(--padding-xl);
+  padding-bottom: 0px;
+}
+
+#selection a {
+  font-size: 30px;
+  cursor: pointer;
+  color: var(--color-1);
+  padding: 0px var(--padding-s);
+}
+
+#selection .selected {
+  color: var(--color-5);
+  border-bottom: 4px solid var(--color-5);
+}
+
+.show {
+  display: flex;
+}
+
+.not-show {
+  display: none;
+}
+
+@media (max-width: 620px) {
+  #selection a {
+    font-size: 5svw;
+  }
+
+  #selection {
+    padding: var(--padding-xl) var(--padding-s) 0px;
+  }
+}

@@ -1,0 +1,140 @@
+header {
+  height: 180px;
+  background-color: var(--color-1);
+  padding: var(--padding-l);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header h1 {
+  font-size: clamp(1.6rem, 3.5vw, 3.5vw);
+  width: 40%;
+  padding-left: var(--padding-m);
+  color: var(--color-3);
+}
+
+nav {
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+ul {
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 600;
+}
+
+ul * {
+  box-sizing: border-box;
+  transition: all 0.35s ease;
+}
+
+ul li {
+  display: inline-block;
+  list-style: outside none none;
+  margin: 0.5em 0.8em;
+  padding: 0;
+}
+
+ul a {
+  padding: 0.5em 0.8em;
+  color: var(--color-5);
+  position: relative;
+  text-decoration: none;
+  font-size: 1.1dvw;
+}
+
+ul a::before,
+ul a::after {
+  content: '';
+  height: 14px;
+  width: 14px;
+  position: absolute;
+  transition: all 0.35s ease;
+  opacity: 0;
+}
+
+ul a::before {
+  content: '';
+  right: 0;
+  top: 0;
+  border-top: 3px solid var(--color-3);
+  border-right: 3px solid var(--color-3);
+  transform: translate(-100%, 50%);
+}
+
+ul a:after {
+  content: '';
+  left: 0;
+  bottom: 0;
+  border-bottom: 3px solid var(--color-3);
+  border-left: 3px solid var(--color-3);
+  transform: translate(100%, -50%);
+}
+
+ul a:hover:before,
+ul a:hover:after {
+  transform: translate(0, 0);
+  opacity: 1;
+}
+
+ul a:hover {
+  color: var(--color-3);
+}
+
+@media (max-width: 970px) {
+  header nav {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+  }
+
+  header nav ul li {
+    margin: 0;
+    width: 100%;
+    padding-top: var(--padding-s);
+  }
+
+  header a {
+    padding: var(--padding-s);
+    margin: 0;
+    font-size: 13px;
+  }
+
+  header h1 {
+    width: 80%;
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 600px) {
+  header {
+    padding: var(--padding-s);
+  }
+
+  header h1 {
+    width: 70%;
+    font-size: 32px;
+  }
+
+  header nav {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+  }
+
+  header nav ul li {
+    margin: 0;
+    width: 100%;
+    padding-top: 5px;
+  }
+
+  header a {
+    padding: 7px 7px;
+    margin: 0;
+    font-size: 11px;
+  }
+}

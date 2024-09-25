@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Signika:wght@300..700&display=swap');
+
+:root {
+  /* COLORS */
+  --color-1: #2f2f30;
+  --color-2: #43596a;
+  --color-3: #1985a1;
+  --color-4: #dddddd;
+  --color-5: #ffffff;
+
+  /* SPACINGS */
+  --margin-xs: 5px;
+  --margin-s: 10px;
+  --margin-m: 20px;
+  --margin-l: 30px;
+  --margin-xl: 50px;
+
+  --padding-xs: 5px;
+  --padding-s: 10px;
+  --padding-m: 20px;
+  --padding-l: 30px;
+  --padding-xl: 50px;
+
+  --gap-xs: 5px;
+  --gap-s: 10px;
+  --gap-m: 20px;
+  --gap-l: 30px;
+  --gap-xl: 50px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-1);
+  /* background-image: url('https://www.transparenttextures.com/patterns/black-thread-light.png'); */
+  height: 100svh;
+}
+
+a {
+  text-decoration: none;
+  color: var(--color-5);
+  font-weight: 600;
+  transition: 0.4s;
+}
+
+a:hover {
+  color: var(--color-3);
+}
+
+main {
+  height: calc(100svh - 180px);
+  overflow-y: auto;
+}
