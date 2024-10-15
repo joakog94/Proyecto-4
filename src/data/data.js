@@ -48,14 +48,14 @@ const data = {
       title: 'Proyecto 1 - E-commerce Website',
       description:
         'Designed and developed a feature-rich e-commerce platform full responsive, using HTML and CSS3',
-      link: 'https://proyecto1-joachim-gomez.netlify.app/',
+      link: 'https://proyecto-1-joachim-gomez.netlify.app/',
       preview: '/assets/Proyecto-1.png'
     },
     {
       title: 'Proyecto 2 - E-commerce Website functional',
       description:
         'Designed and developed a feature-rich e-commerce platform full responsive with filters, using HTML, CSS3 and JavaScript',
-      link: 'https://proyecto2-joachim-gomez.netlify.app/',
+      link: 'https://proyecto-2-joachim-gomez.netlify.app/',
       preview: '/assets/Proyecto-2.png'
     },
     {
