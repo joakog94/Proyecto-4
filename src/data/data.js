@@ -64,6 +64,20 @@ const data = {
         'Built a indentic copy of Pinterest using the API Unsplash, with a complete usefull search bar, using HTML, CSS3, JavaScript and Vite',
       link: 'https://proyecto-3-joachim-gomez.netlify.app',
       preview: '/assets/Proyecto-3.png'
+    },
+    {
+      title: 'Proyecto 5 - Games Hub',
+      description:
+        'A basic games website featuring Rock, Paper and Scissors, Laser Pick, and Tic-Tac-Toe. Built with HTML, CSS, JavaScript, and Vite.',
+      link: 'https://proyecto-5-joachim-gomez.netlify.app',
+      preview: '/assets/Proyecto-5.png'
+    },
+    {
+      title: 'Proyecto 6 - API REST',
+      description:
+        'This project is a backend API built with Node.js, Express, and MongoDB, designed to manage sections and clothing brands. The sections contain multiple brands, which are organized by categories and price.',
+      link: 'https://github.com/joakog94/Proyecto-6',
+      preview: '/assets/Proyecto-6.png'
     }
   ]
 }
