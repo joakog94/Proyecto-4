@@ -75,7 +75,7 @@ const data = {
     {
       title: 'Proyecto 6 - API REST',
       description:
-        'This project is a backend API built with Node.js, Express, and MongoDB, designed to manage sections and clothing brands. The sections contain multiple brands, which are organized by categories and price.',
+        'Backend API built with Node.js, Express, and MongoDB, designed to manage sections and clothing brands. The sections contain multiple brands, which are organized by categories and price.',
       link: 'https://github.com/joakog94/Proyecto-6',
       preview: '/assets/Proyecto-6.png'
     }
