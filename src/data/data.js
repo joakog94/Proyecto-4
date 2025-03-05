@@ -48,14 +48,14 @@ const data = {
       title: 'Proyecto 1 - E-commerce Website',
       description:
         'Designed and developed a feature-rich e-commerce platform full responsive, using HTML and CSS3',
-      link: 'https://proyecto-1-joachim-gomez.netlify.app/',
+      link: 'https://proyecto1-joachim-gomez.netlify.app/',
       preview: '/assets/Proyecto-1.png'
     },
     {
       title: 'Proyecto 2 - E-commerce Website functional',
       description:
         'Designed and developed a feature-rich e-commerce platform full responsive with filters, using HTML, CSS3 and JavaScript',
-      link: 'https://proyecto-2-joachim-gomez.netlify.app/',
+      link: 'https://proyecto2-joachim-gomez.netlify.app/',
       preview: '/assets/Proyecto-2.png'
     },
     {
@@ -64,8 +64,23 @@ const data = {
         'Built a indentic copy of Pinterest using the API Unsplash, with a complete usefull search bar, using HTML, CSS3, JavaScript and Vite',
       link: 'https://proyecto-3-joachim-gomez.netlify.app',
       preview: '/assets/Proyecto-3.png'
+    },
+    {
+      title: 'Proyecto 5 - Games Hub',
+      description:
+        'A basic games website featuring Rock, Paper and Scissors, Laser Pick, and Tic-Tac-Toe. Built with HTML, CSS, JavaScript, and Vite.',
+      link: 'https://proyecto-5-joachim-gomez.netlify.app',
+      preview: '/assets/Proyecto-5.png'
+    },
+    {
+      title: 'Proyecto 6 - API REST',
+      description:
+        'This project is a backend API built with Node.js, Express, and MongoDB, designed to manage sections and clothing brands. The sections contain multiple brands, which are organized by categories and price.',
+      link: 'https://github.com/joakog94/Proyecto-6',
+      preview: '/assets/Proyecto-6.png'
     }
   ]
 }
 
 export default data
+
