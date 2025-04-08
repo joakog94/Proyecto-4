@@ -1,12 +1,14 @@
 footer {
-  height: 100px;
+  /*   height: 100px; */
   background-color: var(--color-3);
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 30px;
   color: var(--color-1);
   font-size: 19px;
   flex-direction: column; /* Para que los elementos estén uno debajo del otro */
+  gap: 10px;
 }
 
 footer span {
@@ -18,7 +20,7 @@ footer span {
 .social-links {
   margin-top: 10px;
   display: flex;
-  gap: var(--gap-s); /* Espaciado entre los enlaces */
+  gap: var(--gap-xl); /* Espaciado entre los enlaces */
 }
 
 .social-links a {
@@ -30,4 +32,5 @@ footer span {
 
 .social-links a:hover {
   color: var(--color-5);
+  text-decoration: underline;
 }
