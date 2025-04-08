@@ -4,9 +4,7 @@
   align-items: center;
   text-align: center;
   width: 100%;
-  /* min-width: 340px;
-  max-width: 450px; */
-  /*   gap: var(--gap-m); */
+
   background-color: var(--color-4);
   margin: var(--margin-l);
   padding: 15px;
@@ -54,4 +52,18 @@
 .card.visible {
   opacity: 1;
   transform: translateY(0);
+}
+
+@media (max-width: 970px) {
+  .card {
+    flex-direction: column;
+  }
+  .card img {
+    width: 90%;
+    margin: 30px;
+  }
+
+  .card .text {
+    gap: 20px;
+  }
 }
