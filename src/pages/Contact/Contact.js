@@ -6,6 +6,7 @@ export const Contact = () => {
   const Contact = document.createElement('section')
   const h3 = document.createElement('h3')
   Contact.id = 'contact'
+  Contact.classList = 'reveal-section'
 
   Contact.innerHTML = `
     <div>

@@ -16,10 +16,11 @@ export const Skills = () => {
   const h3 = document.createElement('h3')
   const divSkills = document.createElement('div')
 
-  divH3.classList = 'titulo'
+  divH3.classList = 'titulo reveal-section'
   h3.textContent = 'My Skills'
   h3.classList = 'underline-effect'
   divSkills.id = 'skills'
+  divSkills.classList = 'reveal-section'
 
   main.append(divH3)
   main.append(divSkills)
