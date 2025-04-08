@@ -1,6 +1,6 @@
 #projects {
   background-color: var(--color-1);
-  padding: var(--padding-xl) 0px;
+  padding: var(--padding-xl) 50px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -12,4 +12,14 @@
   font-size: 60px;
   padding: var(--padding-m);
   color: var(--color-5);
+}
+
+@media (max-width: 970px) {
+  #projects {
+    background-color: var(--color-1);
+    padding: var(--padding-xl) 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 }
