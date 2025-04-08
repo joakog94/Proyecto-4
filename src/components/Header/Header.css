@@ -44,7 +44,7 @@ ul a {
   color: var(--color-5);
   position: relative;
   text-decoration: none;
-  font-size: 1.1dvw;
+  font-size: 1.4dvw;
 }
 
 ul a::before,

@@ -9,10 +9,12 @@ export const Projects = () => {
   Projects.id = 'projects'
   title.textContent = 'My Projects'
 
-  main.append(Projects)
   Projects.append(title)
 
-  data.projects.map((project) => {
+  // Verificamos que hay proyectos
+  console.log(data.projects) // 👈 esto debería mostrarte los proyectos
+
+  data.projects.forEach((project) => {
     const cardElement = Card(
       project.preview,
       project.title,
@@ -20,5 +22,26 @@ export const Projects = () => {
       project.link
     )
     Projects.append(cardElement)
+  })
+
+  main.append(Projects)
+
+  const observer = new IntersectionObserver(
+    (entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible')
+        } else {
+          entry.target.classList.remove('visible')
+        }
+      })
+    },
+    {
+      threshold: 0.1
+    }
+  )
+
+  document.querySelectorAll('.card').forEach((card) => {
+    observer.observe(card)
   })
 }

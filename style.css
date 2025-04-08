@@ -4,7 +4,7 @@
   /* COLORS */
   --color-1: #2f2f30;
   --color-2: #43596a;
-  --color-3: #1985a1;
+  --color-3: #3a8597;
   --color-4: #dddddd;
   --color-5: #ffffff;
 
@@ -40,7 +40,7 @@
 
 body {
   background-color: var(--color-1);
-  /* background-image: url('https://www.transparenttextures.com/patterns/black-thread-light.png'); */
+
   height: 100svh;
 }
 
