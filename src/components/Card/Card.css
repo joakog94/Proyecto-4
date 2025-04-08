@@ -30,6 +30,7 @@
 
 .card .text h4 {
   color: var(--color-1);
+  font-size: 3svw;
 }
 
 .card .text a {
@@ -65,5 +66,12 @@
 
   .card .text {
     gap: 20px;
+  }
+  .card .text h4 {
+    font-size: 4svw;
+  }
+
+  .card .text p {
+    font-size: 3svw;
   }
 }

@@ -6,10 +6,28 @@ footer {
   justify-content: center;
   color: var(--color-1);
   font-size: 19px;
+  flex-direction: column; /* Para que los elementos estén uno debajo del otro */
 }
 
 footer span {
   color: var(--color-5);
   font-size: 20px;
   margin-left: var(--margin-s);
+}
+
+.social-links {
+  margin-top: 10px;
+  display: flex;
+  gap: var(--gap-s); /* Espaciado entre los enlaces */
+}
+
+.social-links a {
+  text-decoration: none;
+  color: var(--color-1);
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+  color: var(--color-5);
 }
